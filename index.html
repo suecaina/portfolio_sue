@@ -1,146 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suecaina Portfolio Website</title>
-    <script src="https://kit.fontawesome.com/8e59926819.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,500;1,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/8e59926819.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="LOGO.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle-navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list"><!--BEM-->
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#work " class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="LOGO.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle-navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <!--BEM-->
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work " class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-<!--INTRODUCTION-->
-<section class="intro" id="home">
-<h1 class="section__title section__title--intro">
-Hello I am, <strong> Suecaina Haddouch</strong>
-</h1>
-<p class="section__subtitle section__subtitle--intro">Front-end Developer</p>
-<img src="sue.JPG" alt="Suecaina Haddouch" class="intro__img">
-</section>
+    <!--INTRODUCTION-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello I am, <strong> Suecaina Haddouch</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Front-end Developer
+      </p>
+      <img src="sue.JPG" alt="Suecaina Haddouch" class="intro__img" />
+    </section>
 
-<!--MY SERVICES-->
-<section class="my-services" id="services">
-    <h2 class="section__title section__title--services">What I do</h2>
-   
-    <div class="services">
+    <!--MY SERVICES-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
 
-    <div class="service">
-    <h3>Concept Innovation</h3>
-    <p>I will revise the concept based on your brief and feedback
-    to verify that the proposed solution meets all your unique requirements.</p>
-    </div> <!--end of service-->
+      <div class="services">
+        <div class="service">
+          <h3>Concept Innovation</h3>
+          <p>
+            I will revise the concept based on your brief and feedback to verify
+            that the proposed solution meets all your unique requirements.
+          </p>
+        </div>
+        <!--end of service-->
 
+        <div class="service">
+          <h3>JavaScript Based Solutions</h3>
+          <p>
+            I am able to create responsive application and increase impactful
+            engagement that connects to the user’s instantly.
+          </p>
+        </div>
+        <!--end of service-->
 
+        <div class="service">
+          <h3>Design and Development</h3>
+          <p>
+            With my background in marketing, in particular Digital Marketing I
+            have extensive knowledge of all Adobe's platforms and I am able to
+            use my creativity to make a website look polished and professional!
+          </p>
+        </div>
+        <!--end of service-->
+      </div>
+      <!--closed services-->
 
-    <div class="service">
-    <h3>JavaScript Based Solutions</h3>
-    <p> I am able to create responsive application and increase impactful engagement 
-    that connects to the user’s instantly.</p>
-    </div> <!--end of service-->
+      <a href="#work" class="btn">My Work</a>
+    </section>
 
+    <!--ABOUT ME-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-end Web Developer based in London
+      </p>
 
-    <div class="service">
-    <h3>Design and Development</h3>
-    <p>With my background in marketing, in particular Digital Marketing 
-        I have extensive knowledge of all Adobe's platforms 
-        and I am able to use my creativity 
-    to make a website look polished and professional!
-    </p>
-    </div> <!--end of service-->
+      <div class="about-me__body">
+        <p>
+          I am a self-taught Front-End Developer who has attained many skills
+          during my time working in Digital Marketing which include Photoshop.
+          After completing many courses in HTML, CSS and Javascript I have
+          completed some projects which demonstrate my skills in Web Development
+          and my passion for design and delivering a great user experience..
+        </p>
+      </div>
 
-    </div><!--closed services-->
+      <img src="me.JPG" alt="Suecaina Haddouch" class="about-me__img" />
+    </section>
 
-<a href="#work" class="btn">My Work</a>
-</section>
-
-
-<!--ABOUT ME-->
-<section class="about-me" id="about">
-    <h2 class="section__title section__title--about">Who I am</h2>
-    <p class="section__subtitle section__subtitle--about">
-       Front-end Web Developer based in London</p>
-
-    <div class="about-me__body">
-    <p> I am a self-taught Front-End Developer who has attained many skills during my time working in Digital Marketing which include Photoshop. 
-        After completing many courses in HTML, CSS and Javascript I have completed some projects which demonstrate my skills in Web Development 
-        and my passion for design and delivering a great user experience..</p>
-    </div>
-
-    <img src="me.JPG" alt="Suecaina Haddouch" class="about-me__img">
-</section>
-
-
-<!--MY WORK-->
-<section class="my-work" id="work">
-<h2 class="section__title section__title--work"> My work</h2>
-<p class="section__subtitle section__subtitle--work"> A selection of my work </p>
-
-<div class="portfolio">
-    <a href="portfolio-item.html" class="portfolio__item">
-    <img src="api ss.png" alt="" class="portfolio__img" >
-</a>
-
-<a href="portfolio-item.html" class="portfolio__item">
-    <img src="boost ss.png" alt="" class="portfolio__img">
-</a>
- 
-<a href="portfolio-item.html" class="portfolio__item">
-    <img src="travel company ss.png" alt="" class="portfolio__img">
-</a>
-
-<a href="portfolio-item.html" class="portfolio__item">
-    <img src="cake form ss.png" alt="" class="portfolio__img">
-</a>
-
-<a href="portfolio-item.html" class="portfolio__item">
-    <img src="calc ss.png" alt="" class="portfolio__img" height: 100px>
-</a>
-
-<a href="portfolio-item.html" class="portfolio__item">
-    <img src="portfolio ss.png" alt="" class="portfolio__img" height: 100px>
-</a>
- 
-</div>
-</section>
-
-<!--FOOTER-->
-<footer class="footer">
-    <a href="mailto:suecaina@hotmail.com" class="footer__link">suecaina@hotmail.com</a>
-<ul class="social-list">
-    <li class="social-list__item">
-        <a class="social-list__link" href="https://z-p42.www.instagram.com/kaina_sue/">
-            <i class="fab fa-instagram"></i>
+    <!--MY WORK-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        <a
+          href="portfolio-item.html"
+          class="section__subtitle section__subtitle--work"
+          >A selection of my work
         </a>
+      </p>
+
+      <div class="portfolio">
+        <a
+          href="https://suecaina.github.io/ingredients4meals/"
+          class="portfolio__item"
+        >
+          <img src="api ss.png" alt="" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://suecaina.github.io/BoostMobileResponsive/"
+          class="portfolio__item"
+        >
+          <img src="boost ss.png" alt="" class="portfolio__img" />
+        </a>
+
+        <a href="https://suecaina.github.io/PS4/" class="portfolio__item">
+          <img src="PS4.png" alt="" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://suecaina.github.io/suecainaform.github.io/"
+          class="portfolio__item"
+        >
+          <img src="cake form ss.png" alt="" class="portfolio__img" />
+        </a>
+
+        <a
+          href="https://suecaina.github.io/calculatorProject/"
+          class="portfolio__item"
+        >
+          <img src="calc ss.png" alt="" class="portfolio__img" height: 100px>
+        </a>
+
+        <a
+          href="https://suecaina.github.io/https---github.com-suecaina-Netflix-Clone/"
+          class="portfolio__item"
+        >
+          <img src="netflix.png" alt="" class="portfolio__img" height: 100px>
+        </a>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <a href="mailto:suecaina@hotmail.com" class="footer__link"
+        >suecaina@hotmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://z-p42.www.instagram.com/kaina_sue/"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
         </li>
 
-    <li class="social-list__item">
-        <a class="social-list__link" href="https://github.com/suecaina">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/suecaina">
             <i class="fab fa-github"></i>
-        </a>
-    </li>
-</ul>
-</footer>
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-<script src="script.js"></script>
-    
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
