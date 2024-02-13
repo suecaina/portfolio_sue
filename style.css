@@ -312,7 +312,7 @@ position: relative;
 }
 
 .service{
-    max-width: 500px; /*centered text equally*/
+    max-width: 350px; /*centered text equally*/
     margin: 0 auto;
 }
 
